@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +6,7 @@
 
 body {
     width: 100%;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans';
 }
 
 .wrapper {
@@ -22,14 +23,13 @@ body {
 
 .sidebar img {
     width: 100px;
-    border-radius: 50%;
-    border: 2px solid orange
+   padding-top: 20%;
    
 }
 
 .sidebar h2,
 h4 {
-    line-height: 35px;
+    line-height: 50px;
 }
 
 .sidebar h2 {
@@ -37,21 +37,21 @@ h4 {
 }
 
 .sidebar h4 {
-    color: rgba(0, 0, 0, 0.4);
+    color: grey;
 }
 
 .sidebar ul {
     
-    padding-top: 15%;
+    padding-top: 30%;
 }
 
 .sidebar ul li {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 .sidebar ul li {
-    padding: 15px 0px 15px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 .sidebar ul li a {
@@ -62,36 +62,23 @@ h4 {
 }
 
 .sidebar ul li:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-right: 3px solid yellow
+    background-color:rgb(235, 233, 233);
+    border-right: 3px solid yellow;
     ;
 }
-
-.sidebar ul li a:active {
-    color: yellow;
-}
-
 .sidebar .social-media {
-    padding-top: 7%;
+    padding-top: 15%;
 }
-
 .sidebar .social-media i {
     width: 30px;
-    background-color: rgba(0, 0, 0, 0.1);
-    color: rgba(0, 0, 0, 0.4);
+    background-color: white;
+    color: black;
     border-radius: 10%;
     margin-left: 2%;
 }
-
-.social-media i:hover {
-    transform: rotate(360deg);
-    transition: 1s;
-}
-
-
 .wrapper .home {
     position: relative;
-    width: 79%;
+    width: 80%;
     height: 100vh;
     margin-left: 20%;
     margin-right: 0;
@@ -100,13 +87,13 @@ h4 {
 .home .shadow {
     width: 2%;
     height: 200vh;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
     position: absolute;
 }
 
 .home .home-items {
-    padding-left: 14px;
-    padding-top: 2%;
+    padding-left: 20px;
+    padding-top: 5%;
 }
 
 .home .home-items i {
@@ -148,10 +135,10 @@ h4 {
 
 .home-items span {
     position: absolute;
-    margin: 28% 0 0 28%;
-    margin-top: 2.5%;
-    color: rgba(0, 0, 0, 0.4);
-    font-weight: 600;
+    margin: 30% 0 0 30%;
+    margin-top: 2%;
+    color: grey;
+    font-weight: 1000;
 }
 
 .home-items .intoduct {
@@ -159,30 +146,28 @@ h4 {
     padding-top: 10%;
     width: 100%;
     height: 300px;
-    background-color: rosybrown;
 }
 
 .wrapper .home .intoduct {
     position: relative;
     margin-top: 10%;
-    margin-left: 1%;
     width: 100%;
     height: 350px;
 }
 
 .intoduct .item1 {
     position: absolute;
-    width: 55%;
+    width: 50%;
     height: 100%;
     padding-left: 5%;
 }
 
 .intoduct .item1 h2 {
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .intoduct .item1 p {
-    color: rgba(0, 0, 0, 0.9);
+    color: black;
     padding-right: 20%;
     margin-top: 4%;
     margin-left: 5%;
@@ -252,20 +237,9 @@ p {
 
 .block2 p span {
     color: rgba(0, 0, 0, 0.4);
-    margin-top: -18%;
+    margin-top: -20%;
     margin-left: 30%;
 }
-
-.left {
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-.right {
-    position: absolute;
-    margin-left: 10%;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
 .home .service {
     position: relative;
     width: 88%;
@@ -280,7 +254,7 @@ p {
 .service-item3,
 .service-item4 {
     position: absolute;
-    width: 25%;
+    width: 30%;
     height: 300px;
     text-align: center;
 }
@@ -311,7 +285,7 @@ p {
     text-align: center;
     margin: 0;
     padding: 5% 16% 0 16%;
-    color: rgba(0, 0, 0, 0.8);
+    color: black;
 }
 
 .service-item2 {
@@ -328,23 +302,23 @@ p {
 
 .home .client {
     position: relative;
-    width: 85%;
+    width: 100%;
     height: 150px;
-    margin: 2% 0 0 9%;
-    margin-top: 15%;
+    margin: 5% 0 0 10%;
+    margin-top: 13%;
     display: flex;
 }
 
 .client>div {
-    width: 16%;
+    width: 100%;
     height: 60%;
     text-align: center;
-    margin: 4% 1% 0 1%;
 }
 
 .client>div img {
-    padding-top: 7%;
+    padding-top: 30%;
     height: 85px;
+    padding-right: 100%;
 }
 
 .client h2 {
@@ -354,19 +328,19 @@ p {
 }
 
 .client .client2 {
-    margin-left: 16%;
+    margin-left: 20%;
 }
 
 .client .client3 {
-    margin-left: 32%;
+    margin-left: 35%;
 }
 
 .client .client4 {
-    margin-left: 48%;
+    margin-left: 50%;
 }
 
 .client .client5 {
-    margin-left: 64%;
+    margin-left: 70%;
 }
 
 .client .client6 {
@@ -375,9 +349,9 @@ p {
 
 .home .award {
     position: relative;
-    width: 87%;
+    width: 100%;
     height: 250px;
-    margin: 5% 0 0 9%;
+    margin: 5% 0 0 10%;
     display: flex;
 }
 
@@ -388,8 +362,8 @@ p {
 
 .award>div {
     width: 25%;
-    border: 2px solid rgba(0, 0, 0, 0.1);
-    margin: 5% 3% -5% 0;
+    border: 2px solid rgb(221, 221, 221);
+    margin: 5% 5% -5% 0;
     text-align: center;
 }
 
@@ -404,6 +378,6 @@ p {
 
 .award>div div {
     color: rgb(245, 202, 12);
-    font-weight: 400;
+    font-weight: 500;
     font-size: xx-large;
 }
