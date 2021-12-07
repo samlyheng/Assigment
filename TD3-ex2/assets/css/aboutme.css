@@ -302,7 +302,7 @@ p {
 
 .home .client {
     position: relative;
-    width: 100%;
+    width: 90%;
     height: 150px;
     margin: 5% 0 0 10%;
     margin-top: 13%;
@@ -349,7 +349,7 @@ p {
 
 .home .award {
     position: relative;
-    width: 100%;
+    width: 90%;
     height: 250px;
     margin: 5% 0 0 10%;
     display: flex;
